@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto OBAFOG - Ajude nossa equipe chegar na OBAFOG</title>
+    <meta
+      name="description"
+      content="Ajude os estudantes do PEI Carmen Miranda a representarem nossa escola na Olimpíada Brasileira de Foguetes no RJ"
+    />
+    <!-- META TAG OG-->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Projeto OBAFOG" />
+
+    <meta
+      property="og:image"
+      content="https://hot-dog-no-prato-do-clecle.vercel.app/assets/logo.png"
+    />
+    <meta property="og:description" content="O melhor hot dog da cidade!" />
+    <meta property="og:site_name" content="HotDogNoPrato" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/animations.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <img src="images/logo.png" alt="Ícone Foguete" class="rocket-icon" />
+          <span><strong>OBAFOG</strong></span>
+        </div>
+        <nav class="nav">
+          <ul>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#team">Equipe</a></li>
+            <li><a href="#donate" class="btn btn-primary">Doar Agora</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="fade-in">Ajude-nos a alcançar as estrelas!</h1>
+          <p class="fade-in delay-1">
+            Nossa equipe do PEI Carmen Miranda foi selecionada para a Olimpíada
+            Brasileira de Foguetes no Rio de Janeiro. Precisamos da sua ajuda
+            para custear essa jornada!
+          </p>
+          <div class="cta-buttons fade-in delay-2">
+            <a href="#donate" class="btn btn-primary btn-large">Doar Agora</a>
+            <a href="#about" class="btn btn-secondary btn-large">Saiba Mais</a>
+          </div>
+        </div>
+        <div class="hero-image slide-in-right">
+          <img src="images/team-photo.png" alt="Equipe OBAFOG" />
+        </div>
+      </div>
+    </section>
+
+    <section class="progress-bar-section">
+      <div class="container">
+        <h2>Nossa Meta de Arrecadação</h2>
+        <div class="progress-container">
+          <div class="progress-bar" id="progress-bar">
+            <div class="progress-fill" id="progress-fill"></div>
+          </div>
+          <div class="progress-info">
+            <span id="amount-raised">R$ 0</span>
+            <span>de R$ 20.000</span>
+          </div>
+        </div>
+        <p id="donors-count">0 pessoas já contribuíram</p>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="about-image">
+          <img
+            src="images/team-working.png"
+            alt="Equipe trabalhando no foguete"
+          />
+        </div>
+        <div class="about-content">
+          <h2>Sobre o Projeto OBAFOG</h2>
+          <p>
+            A Olimpíada Brasileira de Foguetes (OBAFOG) é um evento nacional que
+            reúne os melhores estudantes do país para competirem com seus
+            projetos de foguetes.
+          </p>
+          <p>
+            Nossa equipe do Colégio Carmen Miranda foi selecionada após meses de
+            dedicação e pesquisa, mas precisamos de ajuda para custear:
+          </p>
+          <ul class="checklist">
+            <li><i class="fas fa-check"></i> Passagens aéreas</li>
+            <li><i class="fas fa-check"></i> Hospedagem</li>
+            <li><i class="fas fa-check"></i> Materiais para o foguete</li>
+            <li><i class="fas fa-check"></i> Alimentação</li>
+            <li><i class="fas fa-check"></i> Transporte local</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="team-section">
+      <div class="container">
+        <h2>Conheça Nossa Equipe</h2>
+        <p class="subtitle">
+          Estudantes dedicados que representarão nossa escola com orgulho
+        </p>
+
+        <div class="team-grid">
+          <div class="team-member">
+            <div class="member-photo"></div>
+            <h3>Luis Gustavo</h3>
+            <!-- <p>Capitã da Equipe</p> -->
+            <p>16 anos</p>
+          </div>
+          <div class="team-member">
+            <div class="member-photo"></div>
+            <h3>David dos Reis</h3>
+            <!-- <p>Engenharia do Foguete</p> -->
+            <p>16 anos</p>
+          </div>
+          <div class="team-member">
+            <div class="member-photo"></div>
+            <h3>Wilson Gabriel</h3>
+            <!-- <p>Física e Cálculos</p> -->
+            <p>16 anos</p>
+          </div>
+          <div class="team-member">
+            <div class="member-photo"></div>
+            <h3>Diogo Félix</h3>
+            <!-- <p>Design e Aerodinâmica</p> -->
+            <p>16 anos</p>
+          </div>
+          <div class="team-member">
+            <div class="member-photo"></div>
+            <h3>Juliana de Moura</h3>
+            <!-- <p>Design e Aerodinâmica</p> -->
+            <p>16 anos</p>
+          </div>
+          <div class="team-member">
+            <div class="member-photo"></div>
+            <h3>Eduarda Ayres</h3>
+            <!-- <p>Design e Aerodinâmica</p> -->
+            <p>16 anos</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials-section">
+      <div class="container">
+        <h2>O Que Dizem Sobre Nós</h2>
+        <div class="testimonials-slider">
+          <div class="testimonial active">
+            <p>
+              "Esses estudantes são exemplos de dedicação e perseverança.
+              Merecem toda ajuda para realizar esse sonho!"
+            </p>
+            <div class="author">
+              <strong>Prof. Ricardo Oliveira</strong>
+              <span>Coordenador de Ciências</span>
+            </div>
+          </div>
+          <div class="testimonial">
+            <p>
+              "Meu filho mudou completamente depois que entrou nesse projeto.
+              Estou muito orgulhosa!"
+            </p>
+            <div class="author">
+              <strong>Sra. Fernanda Mendes</strong>
+              <span>Mãe de Carlos</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="donate" class="donation-section">
+      <div class="container">
+        <div class="donation-card">
+          <h2>Faça Sua Doação</h2>
+          <p>Qualquer valor nos ajuda a chegar mais perto da nossa meta!</p>
+
+          <button
+            class="btn btn-primary btn-large btn-block"
+            onclick="window.location.href='https://www.vakinha.com.br/vaquinha/olimpiada-obafog?fbclid=PAZXh0bgNhZW0CMTEAAacyJ-4YFMlss0j1UlNxd9YogsRz__EpWHIVj_FrU8kjGqAyJOeZv1uQhXfkmg_aem_zH2JCX0GfEWgCY-A-dlCGA'"
+          >
+            Continuar para Pagamento
+          </button>
+
+          <div class="security-info">
+            <i class="fas fa-lock"></i>
+            <span>Pagamento seguro via PIX ou Cartão</span>
+          </div>
+        </div>
+
+        <div class="donation-impact">
+          <h3>Seu apoio faz a diferença!</h3>
+          <div class="impact-item">
+            <i class="fas fa-plane"></i>
+            <p><strong>R$ 1000</strong> ajudam com as passagens</p>
+          </div>
+          <div class="impact-item">
+            <i class="fas fa-hotel"></i>
+            <p><strong>R$ 2000</strong> cobrem uma noite de hospedagem</p>
+          </div>
+          <div class="impact-item">
+            <i class="fas fa-utensils"></i>
+            <p><strong>R$ 3000</strong> garantem alimentação para a equipe</p>
+          </div>
+
+          <div class="social-share">
+            <p>Não pode doar agora? Ajude compartilhando!</p>
+            <div class="social-icons">
+              <a
+                href="https://www.tiktok.com/@projeto.obafog?_t=ZM-8xKn3scWR78&_r=1&fbclid=PAZXh0bgNhZW0CMTEAAaenTt09oUSGdsa7xehn9hnTNWAnhuUAduZSpKq5ghId4XdivvTHDIrU5i1gtg_aem_Dtyza9PJmuPDbA34DJjcIg"
+                ><i class="fab fa-tiktok"></i
+              ></a>
+              <a href="https://www.youtube.com/@projeto.obafog"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a href="https://www.instagram.com/projeto.obafog"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://x.com/Projeto_OBAFOG?t=dFazlLOh7m54uMGFmToaVA&s=09&fbclid=PAZXh0bgNhZW0CMTEAAae-8aDUexbUoLME-FIJKXs3GV9NpSUnCCkk6ZFA_shpwlG63jC148ehSL03TQ_aem_k7Afv4qXZoR-POREHIslDQ"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img src="images/logo.png" alt="Ícone Foguete" />
+            <span><strong>OBAFOG</strong></span>
+          </div>
+          <div class="footer-links">
+            <h4>Links</h4>
+            <ul>
+              <li><a href="#about">Sobre</a></li>
+              <li><a href="#team">Equipe</a></li>
+              <li><a href="#donate">Doar</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h4>Contato</h4>
+            <p>PEI Carmen Miranda</p>
+            <p>Email: projeto.obafog@gmail.com</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 OBAFOG - Todos os direitos reservados</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="scripts/donation-counter.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
