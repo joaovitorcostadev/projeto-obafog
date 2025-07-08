@@ -47,6 +47,14 @@ body {
   background-image: url("../images/6.png");
 }
 
+.team-member:nth-child(7) .member-photo {
+  background-image: url("../images/7.png");
+}
+
+.team-member:nth-child(8) .member-photo {
+  background-image: url("../images/8.png");
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
