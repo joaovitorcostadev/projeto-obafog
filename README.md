@@ -96,7 +96,7 @@ Este projeto é de uso livre para fins educacionais. Para uso comercial, entre e
 
 ## 🙌 Créditos
 
-Desenvolvido com ❤️ pela equipe do Colégio Carmen Miranda
+Desenvolvido com ❤️ pelo titio do Lulu
 
 ---
 
