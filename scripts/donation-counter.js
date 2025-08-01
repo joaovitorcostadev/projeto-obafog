@@ -2,8 +2,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // Simulated donation data - in a real app, this would come from your backend
   const donationData = {
     goal: 20000,
-    raised: 7000,
-    donors: 84,
+    raised: 13000,
+    donors: 400,
   };
 
   // Calculate percentage
