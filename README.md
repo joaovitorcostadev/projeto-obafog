@@ -94,10 +94,6 @@ O site foi desenvolvido com abordagem mobile-first e inclui breakpoints para:
 
 Este projeto é de uso livre para fins educacionais. Para uso comercial, entre em contato com os desenvolvedores.
 
-## 🙌 Créditos
-
-Desenvolvido com ❤️ pelo titio do Lulu
-
 ---
 
 **📧 Contato**: projeto.obafog@gmail.com  
