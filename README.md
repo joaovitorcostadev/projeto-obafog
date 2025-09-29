@@ -96,5 +96,4 @@ Este projeto é de uso livre para fins educacionais. Para uso comercial, entre e
 
 ---
 
-**📧 Contato**: projeto.obafog@gmail.com  
-**🏫 Colégio Carmen Miranda** - Promovendo excelência em educação científica
+**📧 Contato**: joaovitorcostadev@gmail.com
